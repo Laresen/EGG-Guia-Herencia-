@@ -19,4 +19,6 @@ public class Constantes {
     public static final String INGRESE_CARGA = "Ingrese la carga de su lavadora";
     public static final String INGRESE_RESOLUCION = "Ingrese la resolución de su equipo";
     public static final String TIENE_TDT = "Ingrese si el equipo posee sintonizador TDT (SI/NO)";
+    public static final String CREAR_TELEVISOR ="Televisores han sido creados";
+    public static final String CREAR_LAVADORA ="Lavadoras han sido creadas";
 }
