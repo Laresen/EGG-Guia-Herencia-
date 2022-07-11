@@ -91,7 +91,7 @@ public class Electrodomesticos {
 
         System.out.println(Constantes.ELEGIR_CONSUMO);
         this.consumoEnergetico = read.next();
-        comprobarConsumoEnergetico(color);
+        comprobarConsumoEnergetico(consumoEnergetico);
         System.out.println(Constantes.ELEGIR_COLOR);
         this.color = read.next();
         comprobarColor(color);
