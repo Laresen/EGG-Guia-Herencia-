@@ -1,21 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ejer4;
 
-/**
- *
- * @author Adri
- */
+import Entidades.Circulo;
+import Entidades.Rectangulo;
+import java.util.Scanner;
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+             Scanner leer = new Scanner(System.in).useDelimiter("\n");
+        Circulo circulo = new Circulo();
+        System.out.println("Indique el radio del circulo");
+        circulo.setRadio(leer.nextDouble());
+        
+        circulo.calcularArea();
+        circulo.calcularPerimetro();
+        
+        Rectangulo rectangulo = new Rectangulo();
+        System.out.println("Indique la base del rectangulo");
+        rectangulo.setBase(leer.nextDouble());
+        System.out.println("Indique la altura del rectangulo");
+        rectangulo.setAltura(leer.nextDouble());
+        
+        rectangulo.calcularArea();
+        rectangulo.calcularPerimetro();
     }
     
 }
