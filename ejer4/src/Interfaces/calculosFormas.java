@@ -10,9 +10,10 @@ package Interfaces;
  * @author Adri
  */
 public interface calculosFormas {
-     public final double PI = Math.PI;
+
+    public final double PI = Math.PI;
 
     public double calcularPerimetro();
 
-    public double calcularArea();   
+    public double calcularArea();
 }
